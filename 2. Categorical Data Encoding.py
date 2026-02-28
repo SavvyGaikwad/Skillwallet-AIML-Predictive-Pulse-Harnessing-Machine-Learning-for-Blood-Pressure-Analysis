@@ -29,4 +29,5 @@ data['Stages'] = data['Stages'].map({'NORMAL':0,'HYPERTENSION (Stage-1)':1,'HYPE
 
 scaler = MinMaxScaler()
 data[ordinal_features] = scaler.fit_transform(data[ordinal_features])
+
 data.to_csv('patient_data.csv', index=False)
