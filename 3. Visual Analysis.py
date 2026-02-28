@@ -64,4 +64,5 @@ sns.pairplot(data=plot_data,
              diag_kind='kde')
 
 plt.suptitle("Pairplot: Systolic vs Diastolic across Stages", y=1.02)
+
 plt.show()
